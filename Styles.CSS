@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-outline.png'); /* Example pattern */
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  padding: 1rem;
+}
+
+.about-me {
+  flex: 2;
+  display: flex;
+  gap: 1rem;
+}
+
+.about-me img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.sidebar {
+  flex: 1;
+  padding-left: 2rem;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
